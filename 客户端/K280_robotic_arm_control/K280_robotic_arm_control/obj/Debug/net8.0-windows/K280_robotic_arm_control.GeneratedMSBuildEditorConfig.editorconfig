@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = K280_robotic_arm_control
-build_property.ProjectDir = D:\研究生\干活\机械手\客户端\K280_robotic_arm_control\K280_robotic_arm_control\
+build_property.ProjectDir = D:\Users\13236\Documents\GitHub\k280\客户端\K280_robotic_arm_control\K280_robotic_arm_control\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

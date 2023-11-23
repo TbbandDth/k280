@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q+hfc3Fuw3hLB6T0R/0oxrZ9hN9f/+nKMmpG5GtCR4xTGqmEO7VBhLvCAUb0VHsiO3fM9ZmSypHqI6b8DvE/Ng==",
+  "dgSpecHash": "MAmqfx7gAbOTiIDxCWidaScQXYtNq2ZgMWzt/I19c9tE4kLgq7Z1busGmYcdDS2XQnZz0NKYafEK6ZsF/J0brA==",
   "success": true,
-  "projectFilePath": "D:\\研究生\\干活\\机械手\\客户端\\K280_robotic_arm_control\\K280_robotic_arm_control\\K280_robotic_arm_control.csproj",
+  "projectFilePath": "D:\\Users\\13236\\Documents\\GitHub\\k280\\客户端\\K280_robotic_arm_control\\K280_robotic_arm_control\\K280_robotic_arm_control.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\13236\\.nuget\\packages\\nmodbus4\\2.1.0\\nmodbus4.2.1.0.nupkg.sha512",
     "C:\\Users\\13236\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\8.0.0\\runtime.linux-arm.runtime.native.system.io.ports.8.0.0.nupkg.sha512",

@@ -50,6 +50,13 @@
             label6 = new Label();
             button3 = new Button();
             groupBox3 = new GroupBox();
+            groupBox5 = new GroupBox();
+            button11 = new Button();
+            button10 = new Button();
+            button9 = new Button();
+            button8 = new Button();
+            button7 = new Button();
+            button6 = new Button();
             groupBox4 = new GroupBox();
             textBox11 = new TextBox();
             label12 = new Label();
@@ -62,10 +69,10 @@
             label10 = new Label();
             textBox10 = new TextBox();
             label11 = new Label();
-            button5 = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
+            groupBox5.SuspendLayout();
             groupBox4.SuspendLayout();
             SuspendLayout();
             // 
@@ -276,15 +283,92 @@
             // groupBox3
             // 
             groupBox3.BackColor = SystemColors.InactiveCaption;
+            groupBox3.Controls.Add(groupBox5);
             groupBox3.Controls.Add(groupBox4);
             groupBox3.Controls.Add(button3);
             groupBox3.Controls.Add(groupBox2);
             groupBox3.Location = new Point(42, 228);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(1354, 352);
+            groupBox3.Size = new Size(1354, 506);
             groupBox3.TabIndex = 2;
             groupBox3.TabStop = false;
             groupBox3.Text = "机械手控制";
+            // 
+            // groupBox5
+            // 
+            groupBox5.BackColor = SystemColors.ActiveCaption;
+            groupBox5.Controls.Add(button11);
+            groupBox5.Controls.Add(button10);
+            groupBox5.Controls.Add(button9);
+            groupBox5.Controls.Add(button8);
+            groupBox5.Controls.Add(button7);
+            groupBox5.Controls.Add(button6);
+            groupBox5.Location = new Point(21, 347);
+            groupBox5.Name = "groupBox5";
+            groupBox5.Size = new Size(1292, 107);
+            groupBox5.TabIndex = 8;
+            groupBox5.TabStop = false;
+            groupBox5.Text = "点动设置";
+            // 
+            // button11
+            // 
+            button11.Location = new Point(889, 43);
+            button11.Name = "button11";
+            button11.Size = new Size(143, 34);
+            button11.TabIndex = 13;
+            button11.Text = "轴2停止运动";
+            button11.UseVisualStyleBackColor = true;
+            button11.Click += button11_Click;
+            // 
+            // button10
+            // 
+            button10.Location = new Point(286, 43);
+            button10.Name = "button10";
+            button10.Size = new Size(143, 34);
+            button10.TabIndex = 12;
+            button10.Text = "轴1停止运动";
+            button10.UseVisualStyleBackColor = true;
+            button10.Click += button10_Click;
+            // 
+            // button9
+            // 
+            button9.Location = new Point(705, 67);
+            button9.Name = "button9";
+            button9.Size = new Size(143, 34);
+            button9.TabIndex = 11;
+            button9.Text = "轴2旋转-";
+            button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
+            // 
+            // button8
+            // 
+            button8.Location = new Point(705, 20);
+            button8.Name = "button8";
+            button8.Size = new Size(143, 34);
+            button8.TabIndex = 10;
+            button8.Text = "轴2旋转+";
+            button8.UseVisualStyleBackColor = true;
+            button8.Click += button8_Click;
+            // 
+            // button7
+            // 
+            button7.Location = new Point(124, 67);
+            button7.Name = "button7";
+            button7.Size = new Size(143, 34);
+            button7.TabIndex = 9;
+            button7.Text = "轴1旋转 -";
+            button7.UseVisualStyleBackColor = true;
+            button7.Click += button7_Click;
+            // 
+            // button6
+            // 
+            button6.Location = new Point(124, 20);
+            button6.Name = "button6";
+            button6.Size = new Size(143, 34);
+            button6.TabIndex = 8;
+            button6.Text = "轴1旋转 +";
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
             // 
             // groupBox4
             // 
@@ -402,23 +486,11 @@
             label11.TabIndex = 0;
             label11.Text = "速度（mm/分钟）";
             // 
-            // button5
-            // 
-            button5.BackColor = Color.Gold;
-            button5.Location = new Point(601, 608);
-            button5.Name = "button5";
-            button5.Size = new Size(250, 34);
-            button5.TabIndex = 8;
-            button5.Text = "断电前需回归初始位置";
-            button5.UseVisualStyleBackColor = false;
-            button5.Click += button5_Click;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(11F, 24F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1436, 672);
-            Controls.Add(button5);
+            ClientSize = new Size(1436, 753);
             Controls.Add(groupBox3);
             Controls.Add(groupBox1);
             Name = "Form1";
@@ -428,6 +500,7 @@
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
             groupBox3.ResumeLayout(false);
+            groupBox5.ResumeLayout(false);
             groupBox4.ResumeLayout(false);
             groupBox4.PerformLayout();
             ResumeLayout(false);
@@ -469,6 +542,12 @@
         private Label label12;
         private TextBox textBox12;
         private Label label13;
-        private Button button5;
+        private GroupBox groupBox5;
+        private Button button9;
+        private Button button8;
+        private Button button7;
+        private Button button6;
+        private Button button10;
+        private Button button11;
     }
 }

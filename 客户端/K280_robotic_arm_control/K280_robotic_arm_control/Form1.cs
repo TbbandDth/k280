@@ -1,4 +1,5 @@
 using System.IO.Ports;
+using System.Threading;
 using Modbus.Device;
 
 
@@ -61,6 +62,9 @@ namespace K280_robotic_arm_control
         private void InitializeModBus()
         {
             WriteroneModBus(907, 0);//设置运动模式为直线补插
+            WriteroneModBus(1000, 5);
+            Thread.Sleep(10000);
+            WriteroneModBus(2000, 5);
         }
 
         private void WritertowModBus(ushort startAddress, int coordinate_value)
@@ -138,7 +142,7 @@ namespace K280_robotic_arm_control
             int Y2 = int.Parse(this.textBox11.Text);
             while (keepWriting)
             {
-                
+
                 WritertowModBus(1014, X1);//设置X轴坐标
                 WritertowModBus(2014, Y1);//设置Y轴坐标
                 WriteroneModBus(960, 2);//执行
@@ -151,14 +155,34 @@ namespace K280_robotic_arm_control
                 Thread.Sleep(1000);
             }
         }
-
-        private void button5_Click(object sender, EventArgs e)
+        private void button6_Click(object sender, EventArgs e)
         {
-            ushort speed = ushort.Parse(this.textBox10.Text);
-            WriteroneModBus(908, speed);
-            WritertowModBus(1014, 249443);//设置X轴坐标
-            WritertowModBus(2014, 94046);//设置Y轴坐标
-            WriteroneModBus(960, 2);//执行
+            WriteroneModBus(1000, 1);
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            WriteroneModBus(1000, 2);
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            WriteroneModBus(1000, 0);
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            WriteroneModBus(2000, 1);
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            WriteroneModBus(2000, 2);
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            WriteroneModBus(2000, 0);
         }
     }
 }
