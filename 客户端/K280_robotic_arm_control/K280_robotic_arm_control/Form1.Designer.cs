@@ -289,7 +289,7 @@
             groupBox3.Controls.Add(groupBox2);
             groupBox3.Location = new Point(42, 228);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(1354, 506);
+            groupBox3.Size = new Size(1354, 477);
             groupBox3.TabIndex = 2;
             groupBox3.TabStop = false;
             groupBox3.Text = "机械手控制";
@@ -490,7 +490,7 @@
             // 
             AutoScaleDimensions = new SizeF(11F, 24F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1436, 753);
+            ClientSize = new Size(1436, 717);
             Controls.Add(groupBox3);
             Controls.Add(groupBox1);
             Name = "Form1";

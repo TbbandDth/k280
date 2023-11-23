@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("K280_robotic_arm_control")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d879ffe8113220b1514bae5dab46d73e2fa19df9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5a7f191e9f36f6230eb7c9af533ce0466cd7cd6")]
 [assembly: System.Reflection.AssemblyProductAttribute("K280_robotic_arm_control")]
 [assembly: System.Reflection.AssemblyTitleAttribute("K280_robotic_arm_control")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

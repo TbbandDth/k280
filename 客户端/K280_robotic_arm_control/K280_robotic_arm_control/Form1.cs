@@ -63,7 +63,7 @@ namespace K280_robotic_arm_control
         {
             WriteroneModBus(907, 0);//设置运动模式为直线补插
             WriteroneModBus(1000, 5);
-            Thread.Sleep(10000);
+            Thread.Sleep(15000);
             WriteroneModBus(2000, 5);
         }
 
@@ -157,11 +157,15 @@ namespace K280_robotic_arm_control
         }
         private void button6_Click(object sender, EventArgs e)
         {
+            WriteroneModBus(1000, 0);
+            Thread.Sleep(500);
             WriteroneModBus(1000, 1);
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
+            WriteroneModBus(1000, 0);
+            Thread.Sleep(500);
             WriteroneModBus(1000, 2);
         }
 
@@ -172,11 +176,15 @@ namespace K280_robotic_arm_control
 
         private void button8_Click(object sender, EventArgs e)
         {
+            WriteroneModBus(2000, 0);
+            Thread.Sleep(500);
             WriteroneModBus(2000, 1);
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
+            WriteroneModBus(2000, 0);
+            Thread.Sleep(500);
             WriteroneModBus(2000, 2);
         }
 
