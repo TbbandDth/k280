@@ -266,11 +266,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\研究生\\干活\\机械手\\客户端\\机械手控制\\机械手控制\\Manipulator_control.csproj",
+      "projectUniqueName": "D:\\Users\\13236\\Documents\\GitHub\\k280\\客户端\\机械手控制\\机械手控制\\Manipulator_control.csproj",
       "projectName": "Manipulator_control",
-      "projectPath": "D:\\研究生\\干活\\机械手\\客户端\\机械手控制\\机械手控制\\Manipulator_control.csproj",
+      "projectPath": "D:\\Users\\13236\\Documents\\GitHub\\k280\\客户端\\机械手控制\\机械手控制\\Manipulator_control.csproj",
       "packagesPath": "C:\\Users\\13236\\.nuget\\packages\\",
-      "outputPath": "D:\\研究生\\干活\\机械手\\客户端\\机械手控制\\机械手控制\\obj\\",
+      "outputPath": "D:\\Users\\13236\\Documents\\GitHub\\k280\\客户端\\机械手控制\\机械手控制\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\13236\\AppData\\Roaming\\NuGet\\NuGet.Config",

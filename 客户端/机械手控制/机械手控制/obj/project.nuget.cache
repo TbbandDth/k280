@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tIoS3jlPeii01I0+bVjKqybsd3mFxMRWhcaEsdDRphv4ADoWwpMSF6xE6J2CiHh/MssYkmZB+7UTcxT2edIKbQ==",
+  "dgSpecHash": "EDuIGurcdf2nmmNftr8Ln+k6qXk8K+Onp3j/po25R89cwLoqI3lHSlwch4fkhQDNEpufxeVl9/SuwSROXiRjCg==",
   "success": true,
-  "projectFilePath": "D:\\研究生\\干活\\机械手\\客户端\\机械手控制\\机械手控制\\Manipulator_control.csproj",
+  "projectFilePath": "D:\\Users\\13236\\Documents\\GitHub\\k280\\客户端\\机械手控制\\机械手控制\\Manipulator_control.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\13236\\.nuget\\packages\\nmodbus4\\2.1.0\\nmodbus4.2.1.0.nupkg.sha512",
     "C:\\Users\\13236\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\8.0.0\\runtime.linux-arm.runtime.native.system.io.ports.8.0.0.nupkg.sha512",

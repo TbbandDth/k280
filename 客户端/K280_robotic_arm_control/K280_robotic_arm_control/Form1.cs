@@ -155,42 +155,40 @@ namespace K280_robotic_arm_control
                 Thread.Sleep(1000);
             }
         }
-        private void button6_Click(object sender, EventArgs e)
-        {
-            WriteroneModBus(1000, 0);
-            Thread.Sleep(500);
-            WriteroneModBus(1000, 1);
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-            WriteroneModBus(1000, 0);
-            Thread.Sleep(500);
-            WriteroneModBus(1000, 2);
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-            WriteroneModBus(1000, 0);
-        }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-            WriteroneModBus(2000, 0);
-            Thread.Sleep(500);
-            WriteroneModBus(2000, 1);
-        }
-
         private void button9_Click(object sender, EventArgs e)
         {
             WriteroneModBus(2000, 0);
             Thread.Sleep(500);
             WriteroneModBus(2000, 2);
         }
+        private void button6_MouseDown(object sender, MouseEventArgs e)
+        {
+            WriteroneModBus(1000, 1);
+        }
 
-        private void button11_Click(object sender, EventArgs e)
+        private void button6_MouseUp(object sender, MouseEventArgs e)
+        {
+            WriteroneModBus(1000, 0);
+        }
+
+        private void button7_MouseDown(object sender, MouseEventArgs e)
+        {
+            WriteroneModBus(1000, 2);
+        }
+
+        private void button8_MouseDown(object sender, MouseEventArgs e)
+        {
+            WriteroneModBus(2000, 1);
+        }
+
+        private void button8_MouseUp(object sender, MouseEventArgs e)
         {
             WriteroneModBus(2000, 0);
+        }
+
+        private void button9_MouseDown(object sender, MouseEventArgs e)
+        {
+            WriteroneModBus(2000, 2);
         }
     }
 }
